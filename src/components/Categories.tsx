@@ -5,37 +5,37 @@ const categories = [
     name: "College Girls",
     description: "Fresh-faced, energetic, and charming companions in their early 20s. Popular among young professionals.",
     count: "25+ Profiles",
-    img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=300&fit=crop&q=80",
+    img: "/images/college-girls.webp",
   },
   {
     name: "Housewife Escorts",
     description: "Mature, sophisticated, and sensual. Experienced companions who know exactly what you need.",
     count: "18+ Profiles",
-    img: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=300&fit=crop&q=80",
+    img: "/images/housewife.webp",
   },
   {
     name: "Airhostess / Model",
     description: "Glamorous, elite companions with impeccable grooming and conversational sophistication.",
     count: "12+ Profiles",
-    img: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&h=300&fit=crop&q=80",
+    img: "/images/airhostess-model.webp",
   },
   {
     name: "Russian / Foreigner",
     description: "International companions visiting or residing in Chennai for a truly exotic experience.",
     count: "8+ Profiles",
-    img: "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=400&h=300&fit=crop&q=80",
+    img: "/images/russian-foreigner.webp",
   },
   {
     name: "Celebrity Look-alikes",
     description: "Stunning companions who bear striking resemblances to your favorite celebrities.",
     count: "10+ Profiles",
-    img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=300&fit=crop&q=80",
+    img: "/images/celebrity-lookalikes.webp",
   },
   {
     name: "Corporate Escorts",
     description: "Professional, well-educated companions ideal for business events, dinners, and networking.",
     count: "15+ Profiles",
-    img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=300&fit=crop&q=80",
+    img: "/images/corporate-escorts.webp",
   },
 ];
 
@@ -71,11 +71,11 @@ export default function Categories() {
               key={name}
               className="group relative rounded-3xl overflow-hidden bg-white shadow-md hover:shadow-2xl hover:shadow-pink-200/40 border border-gray-100 hover:border-pink-200 transition-all duration-400 hover:-translate-y-1"
             >
-              <div className="relative h-52 overflow-hidden">
+              <div className="relative h-72 overflow-hidden">
                 <img
                   src={img}
                   alt={`${name} escorts in Chennai`}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>

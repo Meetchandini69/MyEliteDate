@@ -9,7 +9,7 @@ const profiles = [
     rating: 5,
     reviews: 48,
     height: "5'4\"",
-    img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=300&h=400&fit=crop&crop=face&q=80",
+    img: "/images/profiles/priya.webp",
     tags: ["Outcall", "Overnight", "English Speaking"],
     verified: true,
   },
@@ -21,7 +21,7 @@ const profiles = [
     rating: 5,
     reviews: 62,
     height: "5'5\"",
-    img: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&h=400&fit=crop&crop=face&q=80",
+    img: "/images/profiles/deepa.webp",
     tags: ["Outcall", "Incall", "Mature"],
     verified: true,
   },
@@ -33,7 +33,7 @@ const profiles = [
     rating: 5,
     reviews: 35,
     height: "5'7\"",
-    img: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&h=400&fit=crop&crop=face&q=80",
+    img: "/images/profiles/kavya.webp",
     tags: ["VIP", "Events", "Elite"],
     verified: true,
   },
@@ -45,7 +45,7 @@ const profiles = [
     rating: 4.9,
     reviews: 29,
     height: "5'5\"",
-    img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=400&fit=crop&crop=face&q=80",
+    img: "/images/profiles/nisha.webp",
     tags: ["Dinner Date", "Hotel", "Travel"],
     verified: true,
   },
@@ -83,11 +83,11 @@ export default function FeaturedProfiles() {
               key={profile.name}
               className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:shadow-pink-200/50 border border-gray-100 hover:border-pink-200 transition-all duration-400"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-80 overflow-hidden">
                 <img
                   src={profile.img}
                   alt={`${profile.name} - ${profile.category} escort in Chennai ${profile.location}`}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
